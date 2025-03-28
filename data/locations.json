@@ -1,0 +1,202 @@
+{
+    "intro": {
+        "description": "Ты — призрак, затерянный между мирами. Судьба или неведомая сила забросила тебя в мир кошмаров — место, где законы реальности нарушены, а страх пропитывает сам воздух. Ты можешь наблюдать за этим миром, изучать его, но ты — лишь бесплотная тень. Никакое живое существо не заметит тебя, никакой предмет не поддастся твоему прикосновению. Ты — свидетель трагедии, что развернулась здесь.",
+        "image": "assets/optimized/locations/intro.jpg"
+    },
+    "location": {
+        "name": "Мрачный город",
+        "description": "Некогда процветающий оплот человечества в мире кошмаров, он сумел отвоевать своё место среди теней. Высокие стены защищали жителей от порождений ночи, но страх нельзя удержать камнем и железом. Постепенно сам город превратился в то, с чем боролся — кошмар, разрастающийся в темноте. Теперь он пуст, его улицы покрыты пеплом, здания поглощены безвременьем, а тьма стала его вечным хозяином.",
+        "image": "assets/optimized/locations/gloomy_town.png"
+    },
+    "sectors": {
+        "cold_docks": {
+            "name": "Холодные доки",
+            "color": "12ff00",
+            "description": "Когда-то здесь кипела жизнь — портовые рабочие разгружали суда, моряки рассказывали истории о далеких берегах... Теперь здесь царит вечная зима.",
+            "image": "assets/optimized/locations/cold_docks.jpg",
+            "map_image": "assets/optimized/maps/cold_docks_map.png",
+            "adjacent": [
+                "frost_port",
+                "bloody_shacks"
+            ]
+        },
+        "river_woods": {
+            "name": "Лес у реки",
+            "color": "0072ff",
+            "description": "С виду это место кажется мирным. Река спокойно течёт мимо искривлённых деревьев... Здесь не слышно пения птиц, только чудовищные создания блуждают среди теней.",
+            "image": "assets/optimized/locations/river_woods.png",
+            "map_image": "assets/optimized/maps/river_woods_map.png",
+            "adjacent": [
+                "bloody_shacks",
+                "dusty_hearth"
+            ]
+        },
+        "bloody_shacks": {
+            "name": "Кровавые лачуги",
+            "color": "fff600",
+            "description": "В этом районе жили бедняки, работавшие на полях за пределами города... Теперь стены лачуг покрыты засохшей кровью, а воздух пахнет смертью.",
+            "image": "assets/optimized/locations/bloody_shacks.png",
+            "map_image": "assets/optimized/maps/bloody_shacks_map.png",
+            "adjacent": [
+                "river_woods",
+                "cold_docks",
+                "rotting_neighborhood"
+            ]
+        },
+        "dusty_hearth": {
+            "name": "Пыльный очаг",
+            "color": "ff7800",
+            "description": "Когда-то здесь бурлила жизнь ремесленников и торговцев... Теперь всё погребено под толстым слоем пыли, а дома ждут своих хозяев.",
+            "image": "assets/optimized/locations/dusty_hearth.png",
+            "map_image": "assets/optimized/maps/dusty_hearth_map.png",
+            "adjacent": [
+                "river_woods",
+                "quiet_woods",
+                "outpost",
+                "dusty_labyrinth"
+            ]
+        },
+        "quiet_woods": {
+            "name": "Тихий лес",
+            "color": "00ffcc",
+            "description": "Лес за границами города, скрытый в вечном сумраке... Здесь всегда слышны голоса — шёпот или крики, но их источник не найти.",
+            "image": "assets/optimized/locations/quiet_woods.png",
+            "map_image": "assets/optimized/maps/quiet_woods_map.png",
+            "adjacent": [
+                "dusty_hearth",
+                "dusty_labyrinth",
+                "outpost",
+                "outcast_district"
+            ]
+        },
+        "outcast_district": {
+            "name": "Район изгоев",
+            "color": "ff1200",
+            "description": "Здесь обитали воры, убийцы, безумцы... Теперь улицы мертвы, но тени воплощают злобу и страх прошлого.",
+            "image": "assets/optimized/locations/outcast_district.png",
+            "map_image": "assets/optimized/maps/outcast_district_map.png",
+            "adjacent": [
+                "quiet_woods",
+                "outpost",
+                "destroyed_neighborhood"
+            ]
+        },
+        "misty_wharf": {
+            "name": "Туманный причал",
+            "color": "bbe5ff",
+            "description": "Здесь никогда не рассеивается туман... Силуэты кораблей появляются и исчезают, а призрачные голоса зовут к себе.",
+            "image": "assets/optimized/locations/misty_wharf.png",
+            "map_image": "assets/optimized/maps/misty_wharf_map.png",
+            "adjacent": [
+                "destroyed_neighborhood",
+                "frost_port"
+            ]
+        },
+        "destroyed_neighborhood": {
+            "name": "Разрушенный район",
+            "color": "bbffc5",
+            "description": "Однажды здесь был жилой квартал, но теперь только развалины... Камни пропитаны чужеродной силой, воздух тяжёлый и вязкий.",
+            "image": "assets/optimized/locations/destroyed_neighborhood.png",
+            "map_image": "assets/optimized/maps/destroyed_neighborhood_map.png",
+            "adjacent": [
+                "misty_wharf",
+                "outcast_district",
+                "outpost",
+                "garden",
+                "sobor"
+            ]
+        },
+        "outpost": {
+            "name": "Сторожевой пост",
+            "color": "ffbbbb",
+            "description": "Здесь несли службу стражники города... Теперь казармы пусты, но тени прошлого всё ещё исполняют свой долг.",
+            "image": "assets/optimized/locations/outpost.png",
+            "map_image": "assets/optimized/maps/outpost_map.png",
+            "adjacent": [
+                "outcast_district",
+                "destroyed_neighborhood",
+                "dusty_hearth",
+                "quiet_woods",
+                "dusty_labyrinth",
+                "garden"
+            ]
+        },
+        "dusty_labyrinth": {
+            "name": "Пыльный лабиринт",
+            "color": "ff0042",
+            "description": "Улицы изменились, превратившись в запутанные коридоры из камня и пыли... Каждый раз пути меняются.",
+            "image": "assets/optimized/locations/dusty_labyrinth.png",
+            "map_image": "assets/optimized/maps/dusty_labyrinth_map.png",
+            "adjacent": [
+                "dusty_hearth",
+                "quiet_woods",
+                "outpost",
+                "garden",
+                "rotting_neighborhood",
+                "sobor"
+            ]
+        },
+        "rotting_neighborhood": {
+            "name": "Гниющий квартал",
+            "color": "ff00f6",
+            "description": "Воздух здесь густ и тяжёл, запах разложения въелся в стены... Место медленно стекает в глубины кошмара.",
+            "image": "assets/optimized/locations/rotting_neighborhood.png",
+            "map_image": "assets/optimized/maps/rotting_neighborhood_map.png",
+            "adjacent": [
+                "bloody_shacks",
+                "frost_port",
+                "dusty_labyrinth",
+                "sobor"
+            ]
+        },
+        "frost_port": {
+            "name": "Морозный порт",
+            "color": "7200ff",
+            "description": "Этот порт был воротами города... Теперь он покрыт вечными льдами, а корабли замерзли у причалов.",
+            "image": "assets/optimized/locations/frost_port.png",
+            "map_image": "assets/optimized/maps/frost_port_map.png",
+            "adjacent": [
+                "cold_docks",
+                "misty_wharf",
+                "rotting_neighborhood",
+                "sobor"
+            ]
+        },
+        "sobor": {
+            "name": "Собор",
+            "color": "666666",
+            "description": "Величественное строение, видимое из любой точки города... Теперь это обитель теней и кошмаров.",
+            "image": "assets/optimized/locations/sobor.png",
+            "map_image": "assets/optimized/maps/sobor_map.png",
+            "adjacent": [
+                "frost_port",
+                "rotting_neighborhood",
+                "dusty_labyrinth",
+                "garden",
+                "destroyed_neighborhood",
+                "misty_wharf"
+            ]
+        },
+        "garden": {
+            "name": "Сад",
+            "color": "feffbb",
+            "description": "Единственное место, не тронутое тьмой... Здесь растёт трава, а в воздухе витает аромат цветов.",
+            "image": "assets/optimized/locations/garden.png",
+            "map_image": "assets/optimized/maps/garden_map.png",
+            "adjacent": [
+                "outpost",
+                "dusty_labyrinth",
+                "sobor",
+                "destroyed_neighborhood"
+            ]
+        }
+    },
+    "start_sectors": [
+        "cold_docks",
+        "river_woods",
+        "bloody_shacks",
+        "dusty_hearth",
+        "quiet_woods",
+        "outcast_district"
+    ]
+}
